@@ -25,3 +25,16 @@ Findings for this project are best viewed at this medium blog post -> https://me
 
 # Licencing / Other Info
 This data was taken from the worldbank.org website from various searches based around economic and societal indicators. Data is free to use from the website www.worldbank.org
+
+
+## Project Motivation 📈
+Why do some countries stagnate while others grow? This project uses World Bank data to determine if societal "health" indicators (like Fertility and Life Expectancy) are predictive of economic performance. 
+
+## The "1.5% Rule"
+Instead of simple regression, I engineered a binary classification target:
+- **Class 1 (Growing):** Countries showing ≥ 1.5% annual GDP growth for at least 3 years between 2013-2023.
+- **Class 0 (Stagnant):** Countries failing to meet this threshold.
+
+## Key Findings
+- **The Most Predictive Feature:** [Insert your top feature here, e.g., Life Expectancy].
+- **Model Performance:** The Decision Tree achieved an accuracy of [X%], proving that societal indicators are indeed strong proxies for economic potential.
