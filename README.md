@@ -20,7 +20,6 @@ It should be noted that the GDP figures were also taken from the worldbank websi
 Main file used was the data.ipynb which was coded in VS code. 
 
 # Results
-
 Findings for this project are best viewed at this medium blog post -> https://medium.com/@adamtrees/classification-model-for-determining-countries-gdp-3ec63e1b613c 
 
 # Licencing / Other Info
@@ -36,5 +35,8 @@ Instead of simple regression, I engineered a binary classification target:
 - **Class 0 (Stagnant):** Countries failing to meet this threshold.
 
 ## Key Findings
-- **The Most Predictive Feature:** [Insert your top feature here, e.g., Life Expectancy].
-- **Model Performance:** The Decision Tree achieved an accuracy of [X%], proving that societal indicators are indeed strong proxies for economic potential.
+- **The Most Predictive Feature:** The results far exceeded my expectations. The model achieved a 97% Recall for successful countries. Great at predicting the true positives, however it does produce false positives as well. 
+
+- **Model Performance:** The Decision Tree achieved an accuracy of [~96%], proving that societal indicators are indeed strong proxies for economic potential.
+
+- **GDP GROWTH DRIVER** It comes down to more people; regardless of other economic factors, if you raise your population (and fertility / life expectancy are strong), its likely the GDP will continue to increase at 1.5% YOY
